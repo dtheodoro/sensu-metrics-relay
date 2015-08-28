@@ -238,4 +238,4 @@ module Sensu::Extension
     end
 
   end # Relay
-end # Sensu::Extension
+end # Sensu::Extension 
