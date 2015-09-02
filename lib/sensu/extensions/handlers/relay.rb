@@ -123,7 +123,7 @@ module Sensu::Extension
 
     attr_accessor :connection, :queue, :max_queue_size
 
-    def initialize(name, host, port, queue_size)
+    def initialize(name, host, port, queue_size = nil)
       if queue_size.nil?
          queue_size = MAX_QUEUE_SIZE
       end
